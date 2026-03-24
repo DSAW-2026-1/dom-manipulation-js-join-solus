@@ -4,10 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/styles.css" />
-    <title>Document</title>
+    <title>My TODO List</title>
   </head>
   <body>
-    <h1>Mi TODO list</h1>
+    <div class="app-container">
+
+      <header class="input-container">
+        <h1>My TODO List</h1>
+        <div class="input-wrapper">
+          <input type="text" id="todo-input" placeholder="What needs to be done?" aria-label="New task input" />
+          <button id="add-btn">Add Task</button>
+        </div>
+      </header>
+
+      <main class="tasks-container">
+        <ul id="todo-list">
+          </ul>
+      </main>
+
+    </div>
+
     <script src="scripts/script.js"></script>
   </body>
 </html>
