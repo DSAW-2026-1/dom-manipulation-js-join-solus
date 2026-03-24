@@ -2,4 +2,93 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #191945;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+/* Main card container */
+.app-container {
+    width: 95%;
+    max-width: 500px;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* Top section: Input area */
+.input-container {
+    padding: 30px;
+    background: #ffffff;
+    border-bottom: 2px solid #f0f2f5;
+    text-align: center;
+}
+
+.input-wrapper {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline-color: #007bff;
+}
+
+button#add-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button#add-btn:hover {
+    background: #0056b3;
+}
+
+/* Bottom section: Task display area */
+.tasks-container {
+    padding: 20px;
+    background: #fafafa;
+    min-height: 200px;
+}
+
+/* Individual task item styling */
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background: white;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    border-left: 5px solid #007bff;
+}
+
+/* Style for completed tasks */
+.todo-item.completed span {
+    text-decoration: line-through;
+    color: #a0a0a0;
+}
+
+.delete-btn {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
 }
