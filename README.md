@@ -2,7 +2,8 @@
 # Lista de Tareas
 
 Esta tarea consiste en crear una aplicación de lista de tareas utilizando HTML, CSS y JavaScript. La aplicación debe ser capaz de crear, eliminar y marcar tareas como completadas. Además, se espera que el diseño sea responsive y se adapte correctamente a las medidas de dispositivos móviles, tablets y desktops.
-
+## URL
+https://dsaw-2026-1.github.io/dom-manipulation-js-join-solus/
 ## Funcionalidades
 
 - Crear nuevas tareas: Los usuarios deben poder agregar nuevas tareas a la lista utilizando un campo de entrada y un botón.
